@@ -10,7 +10,7 @@
 
 ## Varför en separat stack?
 
-I oktober 2025 lanserade Anthropic [Claude for Small Business](https://claude.com/solutions/small-business): 15 skills och 15 workflows som lägger AI inuti QuickBooks, PayPal, HubSpot, DocuSign och Google Workspace. Briljant arbete för amerikanska småföretag.
+I maj 2026 lanserade Anthropic [Claude for Small Business](https://claude.com/solutions/small-business): 15 skills och 15 workflows som lägger AI inuti QuickBooks, PayPal, HubSpot, DocuSign och Google Workspace. Briljant arbete för amerikanska småföretag.
 
 För svensk SMB stannar nyttan vid hälften. QuickBooks är marginellt här. PayPal likaså. Och inget i originalpaketet hanterar momsperiod, AGI på individnivå, arbetsgivaravgifter 31,42 %, F-skattekontroll, periodisk sammanställning, 3:12-regler eller svensk räntelag och inkassoflöde.
 
