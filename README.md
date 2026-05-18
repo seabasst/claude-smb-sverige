@@ -10,7 +10,7 @@
 
 ## Varför en separat stack?
 
-I maj 2026 lanserade Anthropic [Claude for Small Business](https://claude.com/solutions/small-business): 15 skills och 15 workflows som lägger AI inuti QuickBooks, PayPal, HubSpot, DocuSign och Google Workspace. Briljant arbete för amerikanska småföretag.
+I oktober 2025 lanserade Anthropic [Claude for Small Business](https://claude.com/solutions/small-business): 15 skills och 15 workflows som lägger AI inuti QuickBooks, PayPal, HubSpot, DocuSign och Google Workspace. Briljant arbete för amerikanska småföretag.
 
 För svensk SMB stannar nyttan vid hälften. QuickBooks är marginellt här. PayPal likaså. Och inget i originalpaketet hanterar momsperiod, AGI på individnivå, arbetsgivaravgifter 31,42 %, F-skattekontroll, periodisk sammanställning, 3:12-regler eller svensk räntelag och inkassoflöde.
 
@@ -83,7 +83,7 @@ Anthropics SMB-plugin och denna stack är kompletterande, inte konkurrerande. In
 
 ## Hur det fungerar
 
-1. **Installera [Bokio MCP](https://github.com/seabasst/bokio-mcp)** i Claude Desktop, Code eller Cowork
+1. **Installera [Bokio MCP](https://github.com/kirimedia/bokio-mcp)** i Claude Desktop, Code eller Cowork
 2. **Installera Anthropics SMB-plugin** för de universella skillsen (`claude plugin install small-business@knowledge-work-plugins`)
 3. **Kopiera vår `skills/`-mapp** till din Claude Skills-mapp
 4. **Be Claude göra jobbet:** "Förbered momsperioden för Q1" eller "Skicka påminnelser på alla obetalda fakturor över 14 dagar"
@@ -94,10 +94,10 @@ Claude använder Bokio MCP för att hämta data, kör analyserna enligt skillens
 
 ```bash
 # Klona repot
-git clone https://github.com/seabasst/claude-smb-sverige.git
+git clone https://github.com/kirimedia/claude-smb-sverige.git
 
 # Installera Bokio MCP (förutsättning)
-git clone https://github.com/seabasst/bokio-mcp.git
+git clone https://github.com/kirimedia/bokio-mcp.git
 cd bokio-mcp && npm install && npm run build
 
 # Installera Anthropics SMB-plugin (för universella skills)
